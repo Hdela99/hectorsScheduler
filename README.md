@@ -1,3 +1,3 @@
 This is the result of my attempting to make the schedule design. I intend to come back to it when I master my jquery/javascript skills but as of now this is where we are. The intention was for the rows to encompass the entirety of the width of the page, for the row to change color depending on the hour(gray for past, green for current, and red for future) and for the textarea to allow for input and when pressing save to push it into local storage. Due to my attempt to make everything from pure javascript it MAY have caused me to be unable to alter the width and functionality with my current knowledge but that is an unknown for me currently. 
 https://hdela99.github.io/hectorsScheduler/  <- link to the "live" site. 
-![image](https://user-images.githubusercontent.com/105886672/179898566-8e09458f-e7ff-4e11-a7b2-484d16ce1717.png)
+![image](https://user-images.githubusercontent.com/105886672/179898697-f3dfa520-4c57-415b-b30c-1fb7d295ccc0.png)
