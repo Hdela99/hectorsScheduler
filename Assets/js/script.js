@@ -12,14 +12,17 @@ let timesNumArray = [9, 10, 11, 12, 1, 2, 3, 4, 5]
 function updateHeader(){
     //show current day and time
      currentDayEl.text(moment().format('dddd, MMMM Do YYYY, h:mm:ss a'));
-     setTimeout(updateHeader, 1000);
-     for (var i = 0; i<timesArray.length; i++){
-
+     for(var i = 0; i<timesNumArray; i++){
+        if(timesNumArray[i] == moment.hours()){
+            getElementsBy
+        }
      }
+     setTimeout(updateHeader, 1000);
 }
 
 $(document).ready(function(){
     grandCreation();
+    updateHeader();
 })
 
 
@@ -52,7 +55,14 @@ function grandCreation(){
     }
 }
 //function to dynamically update colors of column 2 in every row. 
-
+function clicker(){
+    btns = document.getElementsByClassName("saveBtn");
+    for (var i = 0; i<btns.length; i++){
+        btns[i].addEventListener("click", function() { 
+           
+        })
+    }
+}
+clicker();
 //call earlier functions to show up on page. 
-updateHeader();
 // layout();

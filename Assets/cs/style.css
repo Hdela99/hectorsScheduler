@@ -30,8 +30,7 @@ textarea {
   /* display: grid;
   grid-template: 250px 250px 1fr 1fr 250px/ repeat(3, 1fr);
   grid-column-gap: 10px;
-  grid-row-gap: 10px;
-  grid-template-areas: "A A A A A A B B B C C C" "D D D D D D D D D C C C" "E E E E E E E E E E E E" "F F F F G G G G H H H H" "I I I I I I I I I I I I"; */
+  grid-row-gap: 10px;*/
 }
 
 .description {
@@ -44,6 +43,7 @@ textarea {
 }
 
 .row {
+  display: flex;
 width: 100%;
   white-space: pre-wrap;
   height: 80px;
