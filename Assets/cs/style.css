@@ -24,6 +24,16 @@ textarea {
   border-bottom: 10px solid black;
 }
 
+.container {
+  padding: 10px;
+  max-width: 900px;
+  /* display: grid;
+  grid-template: 250px 250px 1fr 1fr 250px/ repeat(3, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  grid-template-areas: "A A A A A A B B B C C C" "D D D D D D D D D C C C" "E E E E E E E E E E E E" "F F F F G G G G H H H H" "I I I I I I I I I I I I"; */
+}
+
 .description {
   white-space: pre-wrap;
 }
@@ -34,7 +44,7 @@ textarea {
 }
 
 .row {
-  grid-template-columns: 2 8 2;
+width: 100%;
   white-space: pre-wrap;
   height: 80px;
   border-top: 1px solid black;
@@ -72,4 +82,7 @@ textarea {
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
+}
+form {
+  width:100%;
 }
